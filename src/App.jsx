@@ -1,18 +1,21 @@
-import { Navigation } from './components/Navigation/Navigation'
+import { NavigationUser } from './components/Navigation/Navigation';
+import { Image } from 'react-bootstrap';
 
-function App() {
-
+const App = () => {
   return (
     <>
       <div className="Navbar">
-        <Navigation />
+        <NavigationUser />
       </div>
       <div className="container">
-        <h1>Hello World</h1>
+        <Image
+          src="https://transporte3.com/wp-content/uploads/2024/01/Faconauto-camiones-1000x454.webp"
+          alt="Banner"
+          className="img-fluid mx-auto d-block mb-2"
+        />
       </div>
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
