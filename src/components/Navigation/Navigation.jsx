@@ -1,7 +1,5 @@
 import { Container, Navbar, Nav, Image } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { ContactLinks } from '../ContactLinks/ContactLinks';
 
 export const NavigationUser = () => {
     return (
@@ -20,29 +18,20 @@ export const NavigationUser = () => {
                         GestionVI
                     </span>
                 </Navbar.Brand>
+
+                {/* Botón para abrir el menú colapsable */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link className="text-white" href="#home">Inicio</Nav.Link>
-                        <Nav.Link className="text-white" href="#features">Contacto</Nav.Link>
-                        <Nav.Link className="text-white" href="#pricing">Localización</Nav.Link>
+                        <Nav.Link className="text-white" href="#home">Servicios</Nav.Link>
                     </Nav>
-                    <Nav.Link href="https://wa.me/34653753291">
-                        <FontAwesomeIcon
-                            icon={faWhatsapp}
-                            size="2x"
-                            className="text-white me-3"
-                            alt="WhatsApp"
-                        />
-                    </Nav.Link>
-                    <Nav.Link href="https://maps.app.goo.gl/Fg6SFQh1brXDtzuD7">
-                        <FontAwesomeIcon
-                            icon={faLocationDot}
-                            size="2x"
-                            className="text-white"
-                            alt="Location"
-                        />
-                    </Nav.Link>
+
+                    {/* Sección de iconos que se muestra en el menú colapsable y en pantallas grandes */}
+                    <div className="ms-auto">
+                        <ContactLinks />
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
