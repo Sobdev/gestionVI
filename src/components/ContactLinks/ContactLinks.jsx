@@ -3,7 +3,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 
-export const ContactLinks = ({ color }) => {
+export const ContactLinks = ({ color = "text-white" }) => {
     return (
         <div className="flex space-x-4">
             <a href="https://wa.me/34653753291" className="hover:text-green-500">
@@ -23,13 +23,9 @@ export const ContactLinks = ({ color }) => {
                 />
             </a>
         </div>
-    )
+    );
 }
 
 ContactLinks.propTypes = {
     color: PropTypes.string,
-}
-
-ContactLinks.defaultProps = {
-    color: "text-white",
 }
