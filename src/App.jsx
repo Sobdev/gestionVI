@@ -1,5 +1,5 @@
-import { CardBasic } from './components/Cards/Cards';
-import { NavigationUser } from './components/Navigation/Navigation';
+import { CardBasic } from './components/Cards/Cards.jsx';
+import { NavigationUser } from './components/Navigation/Navigation.jsx';
 
 const App = () => {
   return (
