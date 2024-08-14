@@ -1,42 +1,28 @@
-import { Container, Navbar, Nav, Image } from 'react-bootstrap';
 import { ContactLinks } from '../ContactLinks/ContactLinks';
+import { Link } from 'react-router-dom';
 
 export const NavigationUser = () => {
     return (
-        <Navbar expand="md" bg="black" variant="dark" className="p-2">
-            {/* Expand md determines the breakpoint in to medium(md) >= 768px */}
-            <Container>
-                <Navbar.Brand href="#home">
-                    <Image
+        <nav className="bg-black p-2">
+            <div className="container mx-auto flex justify-between items-center">
+                <Link to="#home" className="flex items-center">
+                    <img
                         src="/src/assets/react.svg"
                         width="30"
                         height="30"
-                        className="d-inline-block align-top"
+                        className="inline-block align-top"
                         alt="BrandLogo"
                     />
-                    {' '}
-                    <span className="text-white">
-                        GestionVI
-                    </span>
-                </Navbar.Brand>
-
-                {/* Button to open the Navbar */}
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-                <Navbar.Collapse id="basic-navbar-nav">
-                    {/* ms-auto aligns everthing to the left */}
-                    <Nav className="me-auto">
-                        <Nav.Link className="text-white" href="#home">Inicio</Nav.Link>
-                        <Nav.Link className="text-white" href="#home">Servicios</Nav.Link>
-                    </Nav>
-                    <div className="ms-auto">
-                        <ContactLinks />
-                    </div>
-
-                    {/* Regular Navbar with every interaction */}
-                    {/* ms-auto aligns everthing to the right */}
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+                    <span className="text-white ml-2">GestionVI</span>
+                </Link>
+                <div className="hidden md:flex space-x-4">
+                    <Link to="#home" className="text-white hover:text-gray-300">Inicio</Link>
+                    <Link to="#services" className="text-white hover:text-gray-300">Servicios</Link>
+                </div>
+                <div className="ml-auto">
+                    <ContactLinks />
+                </div>
+            </div>
+        </nav>
     );
 }

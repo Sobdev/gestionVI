@@ -1,40 +1,33 @@
-import PropTypes from "prop-types";
-import "./Cards.css";
-import { Card, Button } from "react-bootstrap";
 import { ContactLinks } from "../ContactLinks/ContactLinks";
 
-export const CardBasic = ({ title, text, buttonText, variant, showButton, showLinks }) => {
+export const CardBasic = ({
+    title = '',
+    text = '',
+    buttonText = '',
+    variant = 'blue',
+    showButton = false,
+    showLinks = false,
+}) => {
+    const buttonClasses = `bg-${variant}-500 hover:bg-${variant}-700 text-white font-bold py-2 px-4 rounded`;
+
     return (
-        <Card className="custom-box p-3 mb-4 border-0 bg-light">
-            <Card.Body>
-                <Card.Title className="custom-title">
+        <div className="p-3 mb-4 bg-light rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+            <div>
+                <h5 className="text-xl font-semibold mb-2">
                     {title}
-                </Card.Title>
-                <Card.Text>
+                </h5>
+                <p className="text-gray-700 mb-4">
                     {text}
-                </Card.Text>
-                {/* If its true and... */}
+                </p>
                 {showButton && (
-                    <Button variant={variant}>{buttonText}</Button>
+                    <button className={buttonClasses}>
+                        {buttonText}
+                    </button>
                 )}
                 {showLinks && (
                     <ContactLinks />
                 )}
-            </Card.Body>
-        </Card>
-    )
-}
-
-CardBasic.propTypes = {
-    title: PropTypes.string,
-    text: PropTypes.string,
-    buttonText: PropTypes.string,
-    variant: PropTypes.string,
-    showButton: PropTypes.bool,
-    showLinks: PropTypes.bool,
-}
-
-CardBasic.defaultProps = {
-    showButton: false,
-    showLinks: false,
+            </div>
+        </div>
+    );
 }
