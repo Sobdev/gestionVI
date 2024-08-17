@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ServiceBoxes() {
+const ServiceBoxes = () => {
   return (
     <section className="relative">
 

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-function Services() {
+const Services = () => {
 
   const [tab, setTab] = useState(1);
 

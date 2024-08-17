@@ -1,4 +1,3 @@
-
 const HeroHome = () => {
 
   return (
