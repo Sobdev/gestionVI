@@ -28,9 +28,8 @@ const HeroHome = () => {
               Bienvenido a <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">GestionVI</span>
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                Todo lo necesario para la gestión integral del automovil
-              </p>
+              <p className="text-xl text-gray-600 mb-2" data-aos="zoom-y-out" data-aos-delay="150">
+                Tu gestoría de confianza para resolver todos los trámites de tráfico</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-blue-500 hover:bg-teal-400 w-full mb-4 sm:w-auto sm:mb-0" href="#0">

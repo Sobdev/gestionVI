@@ -13,8 +13,8 @@ const ServiceBoxes = () => {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Es simple</h2>
-            <p className="text-xl text-gray-600">Texto para el segundo CTA</p>
+            <h2 className="h2 mb-4">Nuestro proceso es fácil y eficiente</h2>
+            <p className="text-xl text-gray-600">Deja tus trámites en nuestras manos y disfruta de una gestión sin complicaciones</p>
           </div>
 
           {/* Items */}
@@ -33,8 +33,8 @@ const ServiceBoxes = () => {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contacto Inicial</h4>
-              <p className="text-gray-600 text-center">Texto para bloque de info 1.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Asesoramiento Personalizado</h4>
+              <p className="text-gray-600 text-center">Evaluamos cada caso de manera individual, brindándote las mejores opciones para tu situación específica.</p>
             </div>
 
             {/* 2nd item */}
@@ -49,8 +49,8 @@ const ServiceBoxes = () => {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Estudio de su caso</h4>
-              <p className="text-gray-600 text-center">Texto para bloque de info 2.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Atención Integral</h4>
+              <p className="text-gray-600 text-center">Nos encargamos de todos los aspectos de tu gestión, desde el primer paso hasta la finalización.</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ const ServiceBoxes = () => {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Gestion Profesional</h4>
-              <p className="text-gray-600 text-center">Texto para bloque de info 3.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Tramitación Experta</h4>
+              <p className="text-gray-600 text-center">Con más de 20 años de experiencia, gestionamos tus trámites con precisión, rapidez y sin sorpresas.</p>
             </div>
           </div>
 

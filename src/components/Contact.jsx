@@ -39,7 +39,7 @@ const Contact = () => {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">¿Estamos en contacto?</h3>
-                <p className="text-gray-300 text-lg mb-6">Contacta con nosotros con cualquier duda que tenga</p>
+                <p className="text-gray-300 text-lg mb-6">Contacta con nosotros sobre cualquier duda que tenga.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">

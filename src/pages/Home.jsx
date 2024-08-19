@@ -9,7 +9,6 @@ import HeroHome from '../components/HeroHome';
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-
       <Navigation />
 
       <main className="flex-grow">

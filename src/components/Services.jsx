@@ -31,7 +31,9 @@ const Services = () => {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Explora nuestros servicios</h1>
-            <p className="text-xl text-gray-600">Ofrecemos un servicio de matriculación</p>
+            <p className="text-xl text-gray-600">
+              Nos especializamos en vehículos industriales y automóviles, ofreciendo un servicio rápido, eficaz y adaptado a tus necesidades
+            </p>
           </div>
 
           {/* Section content */}
@@ -47,8 +49,8 @@ const Services = () => {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Bloque 1</div>
-                    <div className="text-gray-600">Texto del bloque 1.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Matriculación y Transferencias</div>
+                    <div className="text-gray-600">Realizamos la matriculación de vehículos nacionales e importados y gestionamos el cambio de titularidad de forma rápida y segura.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -62,8 +64,8 @@ const Services = () => {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Bloque 2</div>
-                    <div className="text-gray-600">Texto del bloque 2.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Autorizaciones de Transporte</div>
+                    <div className="text-gray-600">Gestiona todas las autorizaciones necesarias para tus vehículos industriales, desde altas hasta renovaciones de tarjetas de tacógrafo digital.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -77,8 +79,8 @@ const Services = () => {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Bloque 3</div>
-                    <div className="text-gray-600">Texto del bloque 3</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Bajas y Permisos Especiales</div>
+                    <div className="text-gray-600">Tramitamos bajas temporales, exportaciones y permisos especiales de circulación para que siempre estés al día con la normativa.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
