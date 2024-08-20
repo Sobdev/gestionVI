@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServiceBoxes = () => {
+export const ServiceBoxes = () => {
   return (
     <section className="relative">
 
@@ -74,5 +74,3 @@ const ServiceBoxes = () => {
     </section>
   );
 }
-
-export default ServiceBoxes;

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-const Services = () => {
+export const Services = () => {
 
   const [tab, setTab] = useState(1);
 
@@ -155,5 +155,3 @@ const Services = () => {
     </section >
   );
 }
-
-export default Services;

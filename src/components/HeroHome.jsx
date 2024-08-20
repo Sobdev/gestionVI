@@ -1,4 +1,4 @@
-const HeroHome = () => {
+export const HeroHome = () => {
 
   return (
     <section className="relative">
@@ -44,5 +44,3 @@ const HeroHome = () => {
     </section>
   );
 }
-
-export default HeroHome;

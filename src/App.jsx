@@ -3,9 +3,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import './css/style.css';
 import AOS from 'aos';
-import Home from './pages/Home';
+import { Home } from './pages/Home';
 
-function App() {
+export const App = () => {
 
   const location = useLocation();
 
@@ -32,5 +32,3 @@ function App() {
     </>
   );
 }
-
-export default App;
