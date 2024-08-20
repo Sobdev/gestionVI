@@ -3,7 +3,7 @@ import { Contact } from '../Components/Contact';
 import { Navigation } from '../Components/Navigation';
 import { Services } from '../Components/Services';
 import { ServiceBoxes } from '../Components/ServicesBoxes';
-import { HeroHome } from '../components/HeroHome';
+import { Hero } from '../components/HeroHome';
 
 export const Home = () => {
   return (
@@ -13,7 +13,15 @@ export const Home = () => {
 
       <main className="flex-grow">
 
-        <HeroHome />
+        <Hero
+          title='Bienvenido a '
+          titleColored='GestionVI'
+          subtitle='Tu gestoría de confianza para resolver todos los trámites de tráfico'
+          showBackground={true}
+          // Buttton inside HeroHome component
+          showButton={true}
+          textButton='Solicitar información'
+          linkButton='mailto:hernandez@gestionvi.com' />
         <Services />
         <ServiceBoxes />
         <Contact />

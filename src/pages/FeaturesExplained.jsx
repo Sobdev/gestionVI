@@ -1,7 +1,11 @@
+import { Hero } from '../components/HeroHome';
+
 export const FeaturesExplained = () => {
     return (
         <div>
-            <h1>HOLA</h1>
+            <Hero
+                titleColored='Nuestros servicios'
+                showBackground={false} />
         </div>
     )
 }
