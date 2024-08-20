@@ -1,4 +1,4 @@
-const Contact = () => {
+export const Contact = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -43,7 +43,7 @@ const Contact = () => {
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Tu correo…" aria-label="Your email…" />
-                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Contacto</a>
+                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="mailto:hernandez@gestionvi.com">Contacto</a>
                   </div>
                 </form>
               </div>
@@ -57,5 +57,3 @@ const Contact = () => {
     </section>
   );
 }
-
-export default Contact;
