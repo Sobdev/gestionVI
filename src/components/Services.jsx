@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
+import image2 from '../images/2.jpg'
+import image3 from '../images/3.jpeg'
 
 export const Services = () => {
 
@@ -124,7 +126,7 @@ export const Services = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src="https://www.teamcarengine.com/wp-content/uploads/2021/04/alfa_1.jpg" width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={image2} width="500" height="462" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="https://oficinadelestudiante.uca.es/wp-content/uploads/2021/01/matricula-1024x218.png" width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
@@ -141,7 +143,7 @@ export const Services = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src="https://www.teamcarengine.com/wp-content/uploads/2021/04/alfa_1.jpg" width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={image3} width="500" height="462" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src="https://oficinadelestudiante.uca.es/wp-content/uploads/2021/01/matricula-1024x218.png" width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
