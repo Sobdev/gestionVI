@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo.png';
+import logosmall from '../images/logosmall.png'
 
 export const Navigation = () => {
 
@@ -23,7 +23,7 @@ export const Navigation = () => {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <img src={logo} alt="Logo" className="w-8 h-8" />
+              <img src={logosmall} alt="Logo" className="w-13 h-8" />
             </Link>
           </div>
 

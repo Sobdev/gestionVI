@@ -7,8 +7,7 @@ import { Hero } from '../components/HeroHome';
 
 export const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden
-    ">
+    <div className="flex flex-col min-h-screen overflow-hidden">
       <Navigation />
 
       <main className="flex-grow">
