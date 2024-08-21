@@ -5,6 +5,7 @@ export const FeaturesExplained = () => {
         <div className='flex flex-col min-h-screen overflow-hidden'>
             <Hero
                 titleColored='Nuestros servicios'
+                subtitle='Conoce más sobre lo que hacemos'
                 showBackground={false} />
         </div>
     )
