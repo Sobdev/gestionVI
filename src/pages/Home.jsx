@@ -1,4 +1,3 @@
-import React from 'react';
 import { Contact } from '../Components/Contact';
 import { Navigation } from '../Components/Navigation';
 import { Services } from '../Components/Services';
@@ -13,7 +12,7 @@ export const Home = () => {
       <main className="flex-grow">
 
         <Hero
-          title='Bienvenido a '
+          title='Estás en '
           titleColored='GestionVI'
           subtitle='Tu gestoría de confianza para resolver todos los trámites de tráfico'
           showBackground={true}

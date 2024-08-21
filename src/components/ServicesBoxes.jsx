@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const ServiceBoxes = () => {
   return (
     <section className="relative">

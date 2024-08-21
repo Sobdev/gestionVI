@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 import image2 from '../images/2.jpg'
 import image3 from '../images/3.jpg'
