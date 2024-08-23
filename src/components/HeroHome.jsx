@@ -1,5 +1,4 @@
-export const Hero = ({ title, titleColored, subtitle, showButton, textButton, linkButton, showBackground }) => {
-
+export const Hero = ({ title, titleColored, subtitle, showButton, textButton, linkButton, showBackground, onClickButton }) => {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
@@ -34,9 +33,9 @@ export const Hero = ({ title, titleColored, subtitle, showButton, textButton, li
               {showButton && (
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                   <div>
-                    <a className="btn text-white bg-blue-500 hover:bg-teal-400 w-full mb-4 sm:w-auto sm:mb-0" href={linkButton}>
+                    <button className="btn text-white bg-blue-500 hover:bg-teal-400 w-full mb-4 sm:w-auto sm:mb-0" onClick={onClickButton}>
                       {textButton}
-                    </a>
+                    </button>
                   </div>
                 </div>
               )}
@@ -46,4 +45,4 @@ export const Hero = ({ title, titleColored, subtitle, showButton, textButton, li
       </div>
     </section>
   );
-}
+};

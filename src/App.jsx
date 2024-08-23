@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 import './css/style.css';
 import AOS from 'aos';
 import { Home } from './pages/Home';
-import { FeaturesExplained } from './pages/FeaturesExplained';
 
 export const App = () => {
 
@@ -29,7 +28,6 @@ export const App = () => {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/servicios" element={<FeaturesExplained />} />
       </Routes>
     </>
   );
